@@ -7,6 +7,10 @@ import json
 import sys
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+XIAOBEI_USERNAME=320821200103023915
+XIAOBEI_PASSWORD=033567
+XIAOBEI_SCKEY=1853cda320004c7a83a05df52a2d7053
+
 
 username= os.getenv("XIAOBEI_USERNAME")
 pd= os.getenv("XIAOBEI_PASSWORD")
